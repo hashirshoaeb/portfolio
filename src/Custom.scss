@@ -1,0 +1,150 @@
+// Custom.scss
+// https://getbootstrap.com/docs/5.0/customize/sass/
+
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "~bootstrap/scss/functions";
+
+
+// 2. Include any default variable overrides here
+
+// $primary-background: #FFFFFF;
+// $secondary-background: #F7F7F7;
+// $tertiary-background: #365B6D;
+
+// $primary-font: #000000;
+// $secondary-font: #F7F7F7;
+// $tertiary-font: #365B6D;
+// $inverted-font: #FFFFFF;
+
+// bootstrap overrides 
+$primary: #365B6D ;
+$secondary: #F7F7F7;
+$light: #FFFFFF;
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+$font-family-sans-serif:     -apple-system, 'Barlow', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$card-border-radius: 15px;
+
+
+
+// font 
+// Title
+// font-family: Barlow;
+// font-style: normal;
+// font-weight: bold;
+// font-size: 64px;
+// line-height: 77px;
+
+// Heading1
+// font-family: Barlow;
+// font-style: normal;
+// font-weight: bold;
+// font-size: 50px;
+// line-height: 60px;
+
+// Heading2
+// font-family: Barlow;
+// font-style: normal;
+// font-weight: normal;
+// font-size: 24px;
+// line-height: 29px;
+
+// Lead Text
+// font-family: Barlow;
+// font-style: normal;
+// font-weight: normal;
+// font-size: 18px;
+// line-height: 22px;
+
+// Normal
+// font-family: Barlow;
+// font-style: normal;
+// font-weight: normal;
+// font-size: 15px;
+// line-height: 18px;
+
+
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+
+
+// Layout & components (optional Bootstrap components)
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/accordion";
+@import "~bootstrap/scss/breadcrumb";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/progress";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/toasts";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/popover";
+@import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/spinners";
+@import "~bootstrap/scss/offcanvas";
+// Helpers
+@import "~bootstrap/scss/helpers";
+// Utilities
+@import "~bootstrap/scss/utilities/api";
+
+
+// 5. Add additional custom code here
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
+a {
+  text-decoration: none;
+}
+
+.icon-style {
+font-family: $font-family-sans-serif;
+color: $primary;
+}
+
+
+.card-work {
+	transition: box-shadow .3s;
+}
+
+.card-work:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.card-image {
+	transition: all .3s;
+  border-radius: $card-border-radius;
+  box-shadow: 1rem 1rem $primary;
+}
+
+.card-image:hover {
+  transform: translate(-0.5rem, -0.5rem);
+  box-shadow: 2rem 2rem $primary;
+}
