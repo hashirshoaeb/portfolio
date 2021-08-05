@@ -1,11 +1,11 @@
 import React from 'react';
-import { Nav } from './components/Navbar';
-import { Intro, About } from './components/Intro';
-import { Skills, Projects } from './components/Work';
-import { Footer, Contact } from './components/Footer';
-import { about, contact, intro, navigation, projects, work } from './config/config'
+import { Nav } from '../components/Navbar';
+import { Intro, About } from '../components/Intro';
+import { Skills, Projects } from '../components/Work';
+import { Footer, Contact } from '../components/Footer';
+import { about, contact, intro, navigation, projects, work } from '../config/config';
 
-export const App = () => {
+export default  function Home() {
   return (
     <div>
       <Nav

@@ -11,9 +11,9 @@ export const Intro = ({ title, description, image, buttons }) => {
 						<div className="text-center">
 							{buttons.map((value, index) => (
 								(value.isPrimary) ?
-									<a key={index} class="btn btn-primary my-1 mx-3" href={value.link}>{value.title}</a>
+									<a key={index} className="btn btn-primary my-1 mx-3" href={value.link}>{value.title}</a>
 									:
-									<a key={index} class="btn btn-outline-primary my-1 mx-3" href={value.link}>{value.title}</a>
+									<a key={index} className="btn btn-outline-primary my-1 mx-3" href={value.link}>{value.title}</a>
 							))}
 						</div>
 					</div>
