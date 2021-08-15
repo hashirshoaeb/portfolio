@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 
 export const Intro = ({ title, description, image, buttons }) => {
 	return (
@@ -11,14 +12,18 @@ export const Intro = ({ title, description, image, buttons }) => {
 						<div className="text-center">
 							{buttons.map((value, index) => (
 								(value.isPrimary) ?
-									<a key={index} className="btn btn-primary my-1 mx-3" href={value.link}>{value.title}</a>
+									<Link key={index} href={value.link}>
+										<a className="btn btn-primary my-1 mx-3">{value.title}</a>
+									</Link>
 									:
-									<a key={index} className="btn btn-outline-primary my-1 mx-3" href={value.link}>{value.title}</a>
+									<Link key={index} href={value.link}>
+										<a className="btn btn-outline-primary my-1 mx-3">{value.title}</a>
+									</Link>
 							))}
 						</div>
 					</div>
 					<div className="col-sm-6 text-center">
-						<img className="img-fluid my-3 card-image" width="250" src={image} alt="profile of hashirshoaeb" />
+						<img className="img-fluid my-3 card-image" width="250" height="250" src={image} alt="profile of hashirshoaeb" />
 					</div>
 				</div>
 			</div>

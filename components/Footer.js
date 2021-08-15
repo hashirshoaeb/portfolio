@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 
 export const Contact = ({ title, description, buttons }) => {
 	return (
@@ -10,9 +11,17 @@ export const Contact = ({ title, description, buttons }) => {
 					<div className="">
 						{buttons.map((value, index) => (
 							(value.isPrimary) ?
-								<a key={index} class="btn btn-primary my-1 mx-3" href={value.link}>{value.title}</a>
+								<Link key={index} href={value.link}>
+									<a className="btn btn-primary my-1 mx-3">
+										{value.title}
+									</a>
+								</Link>
 								:
-								<a key={index} class="btn btn-outline-primary my-1 mx-3" href={value.link}>{value.title}</a>
+								<Link key={index} href={value.link}>
+									<a className="btn btn-outline-primary my-1 mx-3">
+										{value.title}
+									</a>
+								</Link>
 						))}
 					</div>
 				</div>
@@ -25,7 +34,16 @@ export const Footer = () => {
 	return (
 		<footer className="bg-secondary text-center py-2 px-5">
 			<div className="container text-muted">
-				<small>&copy; 2021 <a href="https://github.com/hashirshoaeb">hashirshoaeb</a>. Open sourced with love under <a href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">MIT</a> License </small>
+				<small>&copy; 2021 {" "}
+					<Link href="https://github.com/hashirshoaeb">
+						<a>hashirshoaeb</a>
+					</Link>
+					. Open sourced with love under {" "}
+					<Link href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">
+						<a>MIT</a>
+					</Link>
+					{" "} License
+				</small>
 			</div>
 		</footer>
 	);
