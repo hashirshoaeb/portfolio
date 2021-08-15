@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link from 'next/link'
 
 
 
@@ -30,7 +31,7 @@ export const Projects = ({ title, cards }) => {
 					))}
 				</div>
 				{/* <div className="text-center">
-					<button type="button" class="btn btn-outline-light">See More</button>
+					<button type="button" className="btn btn-outline-light">See More</button>
 				</div> */}
 			</div>
 		</div>
@@ -44,9 +45,11 @@ export const Card = ({ title, description, icons }) => {
 			<p className="text-dark">{description}</p>
 			<div className="text-end">
 				{icons && icons.map((value, index) => (
-					<a key={index} href={value.link} target="_blank" rel="noreferrer">
-						<FontAwesomeIcon className="icon-style mx-1" icon={value.icon} size="2x" />
-					</a>
+					<Link key={index} href={value.link}>
+						<a target="_blank" rel="noreferrer">
+							<FontAwesomeIcon className="icon-style mx-1" icon={value.icon} size="2x" />
+						</a>
+					</Link>
 				))}
 			</div>
 		</div>
