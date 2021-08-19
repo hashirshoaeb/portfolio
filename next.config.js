@@ -1,4 +1,4 @@
-const { baseURL } = require("./config/config");
+const baseURL = "/portfolio";
 
 module.exports = {
   reactStrictMode: true,
