@@ -17,11 +17,22 @@ export const Nav = ({ title, links }) => {
             <span className="">{title}</span>
           </a>
         </Link>
-        <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
+        <button
+          className="custom-toggler navbar-toggler"
+          type="button" data-toggle="collapse"
+          data-target="#navbarsExample09"
+          aria-controls="navbarsExample09"
+          aria-expanded={!isNavCollapsed ? true : false}
+          aria-label="Toggle navigation"
+          onClick={handleNavCollapse}
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarsExample09">
+        <div
+          className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`}
+          id="navbarsExample09"
+        >
           {links.map((value, index) => (
             <Link key={index} href={value.link}>
               <a className="nav-link">{value.title}</a>

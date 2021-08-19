@@ -23,7 +23,7 @@ $secondary: #F7F7F7;
 $light: #FFFFFF;
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
-$font-family-sans-serif:     -apple-system, 'Barlow', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-sans-serif: -apple-system, 'Barlow', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 $card-border-radius: 15px;
 
@@ -118,7 +118,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  }
+}
 
 a {
   text-decoration: none;
