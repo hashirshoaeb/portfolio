@@ -15,6 +15,7 @@
     "prebuild": "node scripts/favicons.js",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "lint": "next lint"
   },
   "dependencies": {
