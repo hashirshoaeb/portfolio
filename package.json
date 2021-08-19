@@ -12,6 +12,7 @@
   },
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/favicons.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
