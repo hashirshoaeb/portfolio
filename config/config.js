@@ -3,6 +3,8 @@ import profile from './profile.png';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
+export const baseURL = "https://hashirshoaeb.com/portfolio/";
+
 export const navigation = {
 	name: "Hashir",
 	links: [
