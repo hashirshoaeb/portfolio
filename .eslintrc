@@ -1,3 +1,11 @@
 {
-  "extends": ["next", "next/core-web-vitals"]
+  "extends": [
+    "next",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    // Other rules
+    // https://stackoverflow.com/questions/68203582/error-do-not-use-img-use-image-from-next-image-instead-next-js-using-ht
+    "@next/next/no-img-element": "off"
+  }
 }
