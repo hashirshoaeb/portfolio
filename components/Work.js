@@ -2,9 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link'
 
-
-
-
 export const Skills = ({ title, cards }) => {
 	return (
 		<div id="skills" className="bg-secondary py-5 px-5">
@@ -12,7 +9,11 @@ export const Skills = ({ title, cards }) => {
 				<h1 className="text-primary fw-bold">{title}</h1>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
 					{cards.map((value, index) => (
-						<Card key={index} title={value.title} description={value.description} link={value.link} />
+						<Card
+							key={index}
+							title={value.title}
+							description={value.description}
+							link={value.link} />
 					))}
 				</div>
 			</div>
@@ -27,7 +28,11 @@ export const Projects = ({ title, cards }) => {
 				<h1 className="text-light fw-bold">Projects</h1>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
 					{cards.map((value, index) => (
-						<Card key={index} title={value.title} description={value.description} icons={value.icons} />
+						<Card
+							key={index}
+							title={value.title}
+							description={value.description}
+							icons={value.icons} />
 					))}
 				</div>
 				{/* <div className="text-center">
