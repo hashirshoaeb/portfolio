@@ -1,5 +1,8 @@
 import React from 'react';
+import getConfig from 'next/config'
 import Link from 'next/link'
+
+const { publicRuntimeConfig } = getConfig()
 
 export const Intro = ({ title, description, image, buttons }) => {
 	return (
@@ -25,7 +28,7 @@ export const Intro = ({ title, description, image, buttons }) => {
 					<div className="col-sm-6 text-center">
 						<img
 							className="img-fluid my-3 card-image" width="250"
-							height="250" src={image}
+							height="250" src={publicRuntimeConfig.basePath + image}
 							alt="profile of hashirshoaeb"
 						/>
 					</div>
