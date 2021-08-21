@@ -18,7 +18,7 @@ jobs:
     env:
       # Repository name
       # https://www.linkedin.com/pulse/deploy-nextjs-app-github-pages-federico-antu%C3%B1a/
-      BASE_PATH: / 
+      BASE_PATH:  
 
     strategy:
       matrix:
