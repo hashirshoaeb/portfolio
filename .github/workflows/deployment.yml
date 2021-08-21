@@ -44,3 +44,4 @@ jobs:
         repository-name: hashirshoaeb.github.io
         branch: master # The branch the action should deploy to.
         folder: out # The folder the action should deploy.
+        token: ${{ secrets.GITHUB_TOKEN }} # The GitHub token to use.
