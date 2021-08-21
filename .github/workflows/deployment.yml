@@ -15,8 +15,8 @@ jobs:
 
     runs-on: macos-11
 
-    # permissions:
-    #   repository-projects: write 
+    permissions:
+      repository-projects: write 
 
     env:
       # Repository name
