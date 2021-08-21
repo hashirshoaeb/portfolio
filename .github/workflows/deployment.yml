@@ -15,9 +15,9 @@ jobs:
 
     runs-on: macos-11
 
-    permissions:
-      repository-projects: write 
-      
+    # permissions:
+    #   repository-projects: write 
+
     env:
       # Repository name
       # https://www.linkedin.com/pulse/deploy-nextjs-app-github-pages-federico-antu%C3%B1a/
@@ -44,7 +44,7 @@ jobs:
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
-        repository-name: hashirshoaeb.github.io
+        repository-name: hashirshoaeb/hashirshoaeb.github.io
         branch: master # The branch the action should deploy to.
         folder: out # The folder the action should deploy.
         token: ${{ secrets.GITHUB_TOKEN }} # The GitHub token to use.
