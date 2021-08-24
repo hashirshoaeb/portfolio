@@ -18,7 +18,7 @@ jobs:
     env:
       # Repository name
       # https://www.linkedin.com/pulse/deploy-nextjs-app-github-pages-federico-antu%C3%B1a/
-      BASE_PATH: /portfolio
+      BASE_PATH: /${GITHUB_REPOSITORY#*/}
 
     strategy:
       matrix:
@@ -37,7 +37,6 @@ jobs:
     - run: npm run build
     - run: npm run export
     - run: touch ./out/.nojekyll
-    - run: echo ${GITHUB_REPOSITORY#*/}
     
     # https://github.com/marketplace/actions/deploy-to-github-pages
     - name: Deploy 🚀
