@@ -33,9 +33,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
+    - run: node ./scripts/favicons.js
     - run: npm run build
     - run: npm run export
     - run: touch ./out/.nojekyll
+    - run: echo ${GITHUB_REPOSITORY#*/}
     
     # https://github.com/marketplace/actions/deploy-to-github-pages
     - name: Deploy 🚀
