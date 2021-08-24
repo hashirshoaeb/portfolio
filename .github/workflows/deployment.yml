@@ -18,7 +18,7 @@ jobs:
     env:
       # Repository name
       # https://www.linkedin.com/pulse/deploy-nextjs-app-github-pages-federico-antu%C3%B1a/
-      BASE_PATH: /${{ secrets.GITHUB_REPOSITORY#*/ }}
+      # BASE_PATH: /${{ github.event.repository.name }}
 
     strategy:
       matrix:
@@ -27,6 +27,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Test
+      run: echo /${GITHUB_REPOSITORY#*/}
+    - name: Set env
+      run: echo "BASE_PATH=/${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
+    - name: Test
+      run: echo ${{ env.BASE_PATH }}
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
