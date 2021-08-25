@@ -59,23 +59,23 @@ const createFile = function (path, content) {
 
 const callback = function (error, response) {
   if (error) {
-    console.log(error.message); // Error description e.g. "An unknown error has occurred"
+    console.error(error.message); // Error description e.g. "An unknown error has occurred"
     return;
   }
   // console.log(response.images); // Array of { name: string, contents: <buffer> }
   // console.log(response.files); // Array of { name: string, contents: <string> }
   // console.log(response.html); // Array of strings (html elements)
 
+  // createFile("index.html", response.html.join('\n'));
   // response.files.forEach(element => {
   //   createFile(element.name, element.contents);
   // });
-
   response.images.forEach(element => {
     createFile('public/' + element.name, element.contents);
   });
 
-  // createFile("index.html", response.html.join('\n'));
-
+  console.log("Successfully created favicons");
 };
 
+console.log('Generating favicons...');
 favicons(source, configuration, callback);
