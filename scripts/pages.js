@@ -22,6 +22,7 @@ ghpages.publish(
   {
     branch: branch,
     repo: repoURL,
+    dotfiles: true,
   },
   (err) => {
     if (err) console.error("ERROR: ", err);
