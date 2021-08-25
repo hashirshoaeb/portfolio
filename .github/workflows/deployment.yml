@@ -27,11 +27,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Test
-      run: echo /${GITHUB_REPOSITORY#*/}
-    - name: Set env
+    - name: Set Environment Variables
       run: echo "BASE_PATH=/${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
-    - name: Test
+    - name: Test Environment Variables
       run: echo ${{ env.BASE_PATH }}
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
@@ -39,7 +37,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: node ./scripts/favicons.js
+    # - run: npm run prebuild # build automatically runs prebuild
     - run: npm run build
     - run: npm run export
     - run: touch ./out/.nojekyll
