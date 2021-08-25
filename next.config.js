@@ -15,18 +15,23 @@ function getBasePath() {
       basePath = "/" + process.env.BASE_PATH;
     }
   }
-
-  console.log("getBasePath() : isProd = " + isProd);
-  console.log("getBasePath() : basePath = " + basePath);
-
   return basePath
 }
 
-module.exports = {
+const basePath = getBasePath()
+console.warn(
+  // "Are you publishing to <username>.github.io ? then [basePath] should be empty.\n" +
+  // "Are you publishing to <username>.github.io/<repository> ? then [basePath] should be /<repository>.\n" +
+  `P.S. [basePath] is {${basePath}}`
+)
+
+const nextConfig = {
   reactStrictMode: true,
-  basePath: getBasePath(),
-  assetPrefix: getBasePath(),
+  basePath: basePath,
+  assetPrefix: basePath,
   publicRuntimeConfig: {
-    basePath: getBasePath(),
+    basePath: basePath,
   },
 }
+
+module.exports = nextConfig
