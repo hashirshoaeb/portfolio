@@ -11,11 +11,14 @@
     "url": "https://github.com/hashirshoaeb"
   },
   "scripts": {
-    "dev": "next dev",
     "prebuild": "node scripts/favicons.js",
     "build": "next build",
+    "dev": "next dev",
     "start": "next start",
     "export": "next export",
+    "predeploy": "npm run build && npm run export && touch ./out/.nojekyll",
+    "deploy": "node scripts/pages.js https://github.com/hashirshoaeb/hashirshoaeb.github.io.git master",
+    "custom-domain": "node scripts/cname.js hashirshoaeb.com www.hashirshoaeb.com",
     "lint": "next lint"
   },
   "dependencies": {
