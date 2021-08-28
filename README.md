@@ -53,7 +53,7 @@
 
 There are many portfolio website templates available on Github, however, I didn't find one that really suit my needs so I created this one. A simple, easy to configure, lightweight, and responsive static portfolio website.
 
-Of course, no one template will serve all since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+I know one template doesn't fulfill everyone's need. So with time I'll try adding more features in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
 
 **Built with** [Nextjs](https://nextjs.org/) & [Bootstrap5](https://getbootstrap.com).
 
@@ -75,7 +75,7 @@ You should have [Nodejs](https://nodejs.org/en/) and [Git](https://git-scm.com/d
       git clone https://github.com/<your-username>/portfolio.git
     ``` 
 
-2. Edit the `config/config.js` file. Replace `config/profile.png` with your image. 
+2. Edit the [config/config.js](https://github.com/hashirshoaeb/portfolio/blob/main/config/config.js) file. Replace [config/profile.png](https://github.com/hashirshoaeb/portfolio/blob/main/config/profile.png) with your image. 
     >Note: You need to rename your image file as `profile.png`.
 
 3. Run following scripts in terminal/command prompt to install dependencies.
@@ -118,7 +118,7 @@ Your site will be available at `https://<your-username>.github.io`
 <!-- CONTRIBUTING -->
 # Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contribution you make would be **appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -131,4 +131,4 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 # License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE) for more information.
+Distributed under the `MIT` License. See [LICENSE](https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE) for more information.
