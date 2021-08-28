@@ -53,7 +53,7 @@
 
 There are many portfolio website templates available on Github, however, I didn't find one that really suit my needs so I created this one. A simple, easy to configure, lightweight, and responsive static portfolio website.
 
-I know one template doesn't fulfill everyone's need. So with time I'll try adding more features in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+I know one template doesn't fulfill everyone's need. So I'll try adding more features in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
 
 **Built with** [Nextjs](https://nextjs.org/) & [Bootstrap5](https://getbootstrap.com).
 
