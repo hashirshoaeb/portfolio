@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-var args = process.argv.slice(2)
+const args = process.argv.slice(2)
 const content = args.join('\n')
 const filePath = './out/CNAME'
 
