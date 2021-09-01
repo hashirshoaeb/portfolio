@@ -29,13 +29,14 @@ export default function Home() {
 
 function Button({ title, link }) {
   return (
-    <Link href={link}>
-      <a target="_blank" rel="noreferrer">
-        <div className="row justify-content-center">
-          <div className="card py-3 px-3 mx-sm-4 my-2 card-work" style={{ width: "20rem" }}>
-            <h4 className="text-primary">{title}</h4>
-          </div>
-        </div>
-      </a>
-    </Link>);
+    <div className="row justify-content-center">
+      <div className="card card-work mx-sm-4 my-2" style={{ width: "20rem" }}>
+        <Link href={link}>
+          <a target="_blank" rel="noreferrer">
+            <h4 className="text-primary py-3 px-3">{title}</h4>
+          </a>
+        </Link>
+      </div>
+    </div>
+  );
 }
