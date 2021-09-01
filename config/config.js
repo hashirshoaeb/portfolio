@@ -142,6 +142,14 @@ export const links = {
 			link: "https://hashirshoaeb.com/",
 		},
 		{
+			title: "QuranTalk App",
+			link: "https://www.qurantalk.app/",
+		},
+		{
+			title: "StarBook App",
+			link: "https://starbook.dev/",
+		},
+		{
 			title: "My GitHub",
 			link: "https://github.com/hashirshoaeb/",
 		},
