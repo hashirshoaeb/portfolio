@@ -18,6 +18,10 @@ export const navigation = {
 			title: "Contact",
 			link: "#contact",
 		},
+		{
+			title: "Links",
+			link: "/links",
+		},
 	],
 }
 export const intro = {
