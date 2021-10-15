@@ -20,7 +20,7 @@ export const Intro = ({ title, description, image, buttons }) => {
 									</Link>
 									:
 									<Link key={index} href={value.link}>
-										<a className="btn btn-outline-primary my-1 mx-3">{value.title}</a>
+										<a target="_blank" rel="noreferrer" className="btn btn-outline-primary my-1 mx-3">{value.title}</a>
 									</Link>
 							))}
 						</div>

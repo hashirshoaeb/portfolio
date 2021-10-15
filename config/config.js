@@ -26,7 +26,7 @@ export const navigation = {
 }
 export const intro = {
 	title: "Hey, I'm Hashir",
-	description: "I’m Computer Engineer. I create mobile apps and static websites.",
+	description: "A Computer Engineer creating mobile apps and static websites.",
 	image: profile.src,
 	buttons: [
 		{
@@ -45,9 +45,9 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as mobile application developer working remotely for a UK based startup — Lessgo.",
+		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
 		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writting, doodling, meeting people and growing my network.",
+		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
 	],
 }
 
@@ -56,12 +56,12 @@ export const work = {
 	cards: [
 		{
 			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps. Using Flutter.",
+			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
 			icons: null,
 		},
 		{
 			title: "Web Development",
-			description: "I create responsive static websites. Using Reactjs.",
+			description: "I create responsive static websites using Reactjs.",
 			icons: null,
 		}
 	],
