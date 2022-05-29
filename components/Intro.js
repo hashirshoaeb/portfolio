@@ -29,7 +29,7 @@ export const Intro = ({ title, description, image, buttons }) => {
 						<img
 							className="img-fluid my-3 card-image" width="250"
 							height="250" src={publicRuntimeConfig.basePath + image}
-							alt="profile of hashirshoaeb"
+							alt="profile of rajankumar"
 						/>
 					</div>
 				</div>
