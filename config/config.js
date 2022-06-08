@@ -26,11 +26,6 @@ export const intro = {
 	image: profile.src,
 	buttons: [
 		{
-			title: "Contact Me",
-			link: "#contact",
-			isPrimary: true,
-		},
-		{
 			title: "Currículum",
 			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 			isPrimary: false,
