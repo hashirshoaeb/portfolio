@@ -26,9 +26,9 @@ export const intro = {
 		" Bautista "
 	],
 	description: [
-		"Economista",
-		"Bogotá D.C, Colombia",
-		"Universidad Santo Tomas "
+		"Economista\n",
+		" Bogotá D.C, Colombia\n",
+		" Universidad Santo Tomas"
 	],
 
 	image: profile.src,
@@ -42,7 +42,7 @@ export const intro = {
 }
 
 export const about = {
-	title: "¿Quien Soy	?",
+	title: "¿Quien Soy?",
 	description: [
 		"Soy un economista de la Universidad Santo Tomas, interesado por la ciencia de datos especialmente en los procesos de análisis e interpretación de datos. Así mismo considero que mi conocimiento y formación académica construida como economista me permite la implementación del componente de análisis crítico más allá del simple manejo de datos.",
 	],
