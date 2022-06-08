@@ -26,7 +26,7 @@ export const intro = {
 		" Bautista "
 	],
 	description: [
-		"Economista - Universidad Santo Tomas - Bogota.D.C - Colombia."
+		"Economista - Universidad Santo Tomas - Bogota.D.C, Colombia."
 	],
 
 	image: profile.src,
@@ -63,33 +63,25 @@ export const work = {
 }
 
 export const projects = {
-	title: "Projects",
+	title: "Algunos De Mis Proyectos",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "Geihdanepy",
+			description: "Un módulo de Python código abierto creado con el fin de que las personas puedan acceder de forma más ágil a la información de la Gran Encuesta Integrada De Hogares del DANE en Colombia.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					link: "https://github.com/BautistaDavid/geihdanepy",
 				},
 			]
 		},
 		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			title: "Labour Economics Web App",
+			description: "Una aplicación web que presenta modelos de Machine Learning que buscan predecir la probabilidad de que una persona este empleada en el contexto colombiano, esto usando datos de la Gran Encuesta Integrada De Hogares.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+					icon: faGithub,
+					link: "https://github.com/BautistaDavid/MLxLabour_Economics",
 				},
 			]
 		},
