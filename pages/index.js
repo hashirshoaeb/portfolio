@@ -32,11 +32,6 @@ export default function Home() {
         title={projects.title}
         cards={projects.cards}
       />
-      <Contact
-        title={contact.title}
-        description={contact.description}
-        buttons={contact.buttons}
-      />
       <Footer />
     </Fragment>
   );
