@@ -22,8 +22,8 @@ export const navigation = {
 }
 export const intro = {
 	title: [
-		"David Felipe",
-		" Bautista Bernal"
+		"David",
+		" Bautista "
 	],
 	description: "Economista. Universidad Santo Tomas. Bogota D.C, Colombia",
 	image: profile.src,
