@@ -4,19 +4,15 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "David",
 	links: [
 		{
-			title: "About",
+			title: "Sobre mi",
 			link: "#about",
 		},
 		{
-			title: "Projects",
+			title: "Proyectos",
 			link: "#projects",
-		},
-		{
-			title: "Contact",
-			link: "#contact",
 		},
 		{
 			title: "Links",
@@ -25,8 +21,8 @@ export const navigation = {
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "David Felipe Bautista Bernal",
+	description: "Economista. Universidad Santo Tomas. Bogota D.C, Colombia",
 	image: profile.src,
 	buttons: [
 		{
@@ -35,7 +31,7 @@ export const intro = {
 			isPrimary: true,
 		},
 		{
-			title: "Resume",
+			title: "Currículum",
 			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 			isPrimary: false,
 		},
@@ -43,7 +39,7 @@ export const intro = {
 }
 
 export const about = {
-	title: "Who I am",
+	title: "¿Quien Soy	?",
 	description: [
 		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
 		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
@@ -111,22 +107,7 @@ export const projects = {
 	],
 }
 
-export const contact = {
-	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
-	buttons: [
-		{
-			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
-			isPrimary: true,
-		},
-		{
-			title: "Schedule Meeting",
-			link: "",
-			isPrimary: false,
-		},
-	]
-}
+
 
 // SEARCH ENGINE 
 export const SEO = {
