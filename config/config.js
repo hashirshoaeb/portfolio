@@ -26,9 +26,7 @@ export const intro = {
 		" Bautista "
 	],
 	description: [
-		"Economista\ndadaw",
-		" Bogotá D.C, Colombia\t",
-		" Universidad Santo Tomas"
+		"Economista - Universidad Santo Tomas - Bogota.D.C - Colombia."
 	],
 
 	image: profile.src,
