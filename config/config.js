@@ -32,6 +32,11 @@ export const intro = {
 	image: profile.src,
 	buttons: [
 		{
+			title: "Contácteme",
+			link: "/links",
+			isPrimary: false,
+		},
+		{
 			title: "Currículum",
 			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 			isPrimary: false,
@@ -104,7 +109,7 @@ export const projects = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
+	title: "David Bautista | Economista",
 	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
 	image: profile.src,
 }
@@ -112,7 +117,7 @@ export const SEO = {
 export const links = {
 	image: profile.src,
 	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	description: "Economista",
 	cards: [
 		{
 			title: "My website",
@@ -128,7 +133,7 @@ export const links = {
 		},
 		{
 			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
+			link: "https://github.com/BautistaDavid/",
 		},
 		{
 			title: "My LinkedIn",
