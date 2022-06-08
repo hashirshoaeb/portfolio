@@ -26,8 +26,8 @@ export const intro = {
 		" Bautista "
 	],
 	description: [
-		"Economista\n",
-		" Bogotá D.C, Colombia\n",
+		"Economista\t",
+		" Bogotá D.C, Colombia\t",
 		" Universidad Santo Tomas"
 	],
 
