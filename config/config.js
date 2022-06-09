@@ -32,7 +32,7 @@ export const intro = {
 	image: profile.src,
 	buttons: [
 		{
-			title: "Contácteme",
+			title: "Mis Redes y Plataformas",
 			link: "/links",
 			isPrimary: false,
 		},
@@ -116,23 +116,23 @@ export const SEO = {
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
+	title: "David Felipe Bautista",
 	description: "Economista",
 	cards: [
 		{
-			title: "My website",
-			link: "https://hashirshoaeb.com/",
+			title: "GitHub",
+			link: "https://github.com/BautistaDavid/",
 		},
 		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
+			title: "Twitter",
+			link: "https://twitter.com/PipeBau_",
 		},
 		{
-			title: "StarBook App",
+			title: "LinkedIn",
 			link: "https://starbook.dev/",
 		},
 		{
-			title: "My GitHub",
+			title: "Mi Blog ",
 			link: "https://github.com/BautistaDavid/",
 		},
 		{
