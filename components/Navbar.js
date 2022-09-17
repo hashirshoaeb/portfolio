@@ -32,11 +32,13 @@ export const Nav = ({ title, links }) => {
           className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`}
           id="navbarsExample09"
         >
-          {links.map((value, index) => (
-            <Link key={index} href={value.link}>
-              <a className="nav-link">{value.title}</a>
-            </Link>
-          ))}
+          <div className="navbar-nav">
+            {links.map((value, index) => (
+              <Link key={index} href={value.link} >
+                <a className="nav-link">{value.title}</a>
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </nav>
