@@ -18,7 +18,7 @@
 // $inverted-font: #FFFFFF;
 
 // bootstrap overrides 
-$primary: #365B6D ;
+$primary: #365B6D;
 $secondary: #F7F7F7;
 $light: #FFFFFF;
 
@@ -69,6 +69,7 @@ $card-border-radius: 15px;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/maps";
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/utilities";
 
@@ -114,6 +115,7 @@ $card-border-radius: 15px;
 html {
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -125,21 +127,21 @@ a {
 }
 
 .icon-style {
-font-family: $font-family-sans-serif;
-color: $primary;
+  font-family: $font-family-sans-serif;
+  color: $primary;
 }
 
 
 .card-work {
-	transition: box-shadow .3s;
+  transition: box-shadow .3s;
 }
 
 .card-work:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2);
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
 .card-image {
-	transition: all .3s;
+  transition: all .3s;
   border-radius: $card-border-radius;
   box-shadow: 1rem 1rem $primary;
 }
