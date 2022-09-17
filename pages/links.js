@@ -13,7 +13,7 @@ export default function Home() {
       <Header seo={SEO} />
       <div className="d-flex flex-column justify-content-between bg-secondary min-vh-100">
         <div className="py-5 px-5 container text-center">
-          <img className="img-fluid my-3 card-image" width="150" height="150" src={publicRuntimeConfig.basePath + links.image} alt="profile of hashirshoaeb" />
+          <img className="img-fluid my-3 card-image" width="150" height="150" src={publicRuntimeConfig.basePath ?? "" + links.image} alt="profile of hashirshoaeb" />
           <h3 className="mt-3">{links.title}</h3>
           <p>{links.description}</p>
           {links.cards.map((value, index) => (
