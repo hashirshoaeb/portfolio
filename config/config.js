@@ -1,11 +1,17 @@
 
-import profile from './profile.png';
+import profile from './profile.jpg';
+import dormguide1 from './dormguide1.png';
+import dormguide2 from './dormguide2.png';
+import dormguide3 from './dormguide3.png';
+import dormguide4 from './dormguide4.png';
+import dormguide5 from './dormguide5.png';
+import dormguide6 from './dormguide6.png';
 
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faAppStore, faGithub, faGooglePlay, faChrome } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Wesley",
 	links: [
 		{
 			title: "About",
@@ -26,8 +32,8 @@ export const navigation = {
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hey, I'm Wesley",
+	description: "A Computer Science senior at Georgia Institute of Technology",
 	image: profile.src,
 	buttons: [
 		{
@@ -37,7 +43,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "https://drive.google.com/file/d/1fmZelIvGI2SS8oAYQYTAXd44vl2vjPdy/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -46,9 +52,9 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"I am a senior at Georgia Institute of Technology graduating Fall 2022 with a degree in Computer Science with specialties in people and information networks. I have been heavily investing my time learning new skills in front end development these past two years",
+		"I have worked hard this past year on three major projects: HipHop2020, dormguide, and MusicEditor",
+		"The tech industry is quickly evolving which is why I am proud to have spent years developing skills in Java, algorithms, data structures, and design that have allowed me to bring that knowledge to every team I am a part of. I believe in the power of open-source and collaboration as the only way to beat the ever increasing complexity of development is with help. I love the challenge of learning new skills so I welcome the opportunity to visit an unfamiliar tech stack.",
 	],
 }
 
@@ -57,14 +63,20 @@ export const work = {
 	cards: [
 		{
 			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+			description: "I create pixel perfect iOS and Android apps using React Native.",
 			icons: null,
 		},
 		{
 			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
+			description: "I have lead an institute funded team since 2021 in replacing outdated interfaces.",
+			icons: null,
+		},
+		{
+			title: "Java Development",
+			description: "I have been using Java for school and work for over 6 years.",
 			icons: null,
 		}
+
 	],
 }
 
@@ -72,69 +84,55 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "Working Dogs Endurance",
+			description: "Collaboration between Georgia Institute of Technology and University of Pennsylvania measuring working dogs endurance levels with heart rate deflection point algorithms.",
+			icons: [
+			]
+		},
+		{
+			title: "Dungeon Crawler",
+			description: "A JavaFX dungeon crawler game. Featuring randomly generated levels, potions, items, and weapons.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					link: "https://github.com/WDaven/dungeon-game",
 				},
 			]
 		},
 		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			title: "Hiphop2020",
+			description: "Virtual reality HipHop pedagogical archive. Headed by Dr. Jocelyn Wilson as a part of FourFourBeatProject. ",
 			icons: [
 				{
+					icon: faChrome,
+					link: "https://www.fourfourbeatproject.org/",
+				},
+			],
+		},
+		{
+			title: "dormguide",
+			description: "A react native app allowing Georgia Tech students to find the best dorms on campus.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/WDaven/public-dormguide",
+				},
+				{
 					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
+					link: "https://apps.apple.com/us/app/dormguide/id6443801396",
 				},
 				{
 					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-				},
-			]
-		},
-		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-			icons: [
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
-				},
-			]
-		},
-		{
-			title: "ProjectPhotos1",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-			icons: [
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
+					link: "https://play.google.com/store/apps/details?id=dorm.finder&hl=en_US&gl=US",
 				},
 			],
 			images: [
-					profile.src,
-					profile.src,
-			],
-		},
-		{
-			title: "ProjectPhotos2",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-			icons: [
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
-				},
-			],
-			images: [
-				profile.src,
-				profile.src,
+				dormguide1.src,
+				dormguide2.src,
+				dormguide3.src,
+				dormguide4.src,
+				dormguide5.src,
+				dormguide6.src,
 			],
 		},
 	],
@@ -142,17 +140,12 @@ export const projects = {
 
 export const contact = {
 	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	description: "Please do not hesitate to reach out directly by email at daven.wesley@gmail.com.",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			link: "mailto:daven.wesley@gmail.com",
 			isPrimary: true,
-		},
-		{
-			title: "Schedule Meeting",
-			link: "",
-			isPrimary: false,
 		},
 	]
 }
@@ -160,35 +153,31 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	title: "Wesley Davenport | Computer Science | React Native | Java developer",
+	description: "I create mobile apps, websites, and Java applications. I graduated from Georgia Institute of Technology (GT) in 2022 with a degree in Computer Science.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "@Wesley Davenport",
+	description: "Software Developer | React Native | Java | React.js",
 	cards: [
 		{
 			title: "My website",
-			link: "https://hashirshoaeb.com/",
+			link: "https://wesleydavenport.dev/",
 		},
 		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
+			title: "dormguide",
+			link: "https://apps.apple.com/us/app/dormguide/id6443801396",
 		},
 		{
 			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
+			link: "https://github.com/WDaven/",
 		},
 		{
 			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
+			link: "https://www.linkedin.com/in/wesley-davenport-94768a149/",
 		},
 	]
 }
