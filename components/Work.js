@@ -62,6 +62,7 @@ export const Card = ({ title, description, icons, images }) => {
 		return (
 			<div className="card py-3 px-3 mx-sm-4 my-4 card-work" style={{width: "20rem"}}>
 				<h4 className="text-primary">{title}</h4>
+
 					<img
 						className="card-img-top" style ={{width:'auto', maxwidth:'100%', height:'auto', maxHeight:'250px', objectFit: 'cover', objectPosition:'50% 0%'}}
 						src={images[0]}
@@ -69,16 +70,17 @@ export const Card = ({ title, description, icons, images }) => {
 						onClick={() => setShow(true)}
 
 					/>
-				<Modal show={show} onHide={handleClose}>
+
+				<Modal show={show} onHide={handleClose} style={{maxHeight:'100vh'}}>
 					<Modal.Header closeButton>
 						<Modal.Title>{title}</Modal.Title>
 					</Modal.Header>
 					<Modal.Body>
-						<Carousel activeIndex={index} onSelect={handleSelect}>
+						<Carousel activeIndex={index} onSelect={handleSelect} >
 							{images.map((value, index) => (
 								<Carousel.Item key={index}>
 									<img
-										className="d-block w-100"
+										className="d-block w-100 rounded-4"
 										src={value}
 										alt="First slide"
 									/>

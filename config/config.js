@@ -1,7 +1,7 @@
 
 import profile from './profile.png';
 import projectPhoto from './dormguide1.png';
-import projectPhoto2 from './profile.png';
+import projectPhoto2 from './shiny.png';
 
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
