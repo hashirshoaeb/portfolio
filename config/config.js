@@ -1,5 +1,8 @@
 
 import profile from './profile.png';
+import projectPhoto from './dormguide1.png';
+import projectPhoto2 from './profile.png';
+
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
@@ -107,6 +110,34 @@ export const projects = {
 					link: "https://github.com/hashirshoaeb/portfolio",
 				},
 			]
+		},
+		{
+			title: "ProjectPhotos1",
+			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/hashirshoaeb/portfolio",
+				},
+			],
+			images: [
+					projectPhoto.src,
+					projectPhoto.src,
+			],
+		},
+		{
+			title: "ProjectPhotos2",
+			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/hashirshoaeb/portfolio",
+				},
+			],
+			images: [
+				projectPhoto2.src,
+				projectPhoto2.src,
+			],
 		},
 	],
 }
