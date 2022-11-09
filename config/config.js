@@ -1,7 +1,5 @@
 
 import profile from './profile.png';
-import projectPhoto from './dormguide1.png';
-import projectPhoto2 from './shiny.png';
 
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
@@ -121,8 +119,8 @@ export const projects = {
 				},
 			],
 			images: [
-					projectPhoto.src,
-					projectPhoto.src,
+					profile.src,
+					profile.src,
 			],
 		},
 		{
@@ -135,8 +133,8 @@ export const projects = {
 				},
 			],
 			images: [
-				projectPhoto2.src,
-				projectPhoto2.src,
+				profile.src,
+				profile.src,
 			],
 		},
 	],
