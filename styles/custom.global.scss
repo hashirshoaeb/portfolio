@@ -21,6 +21,11 @@
 $primary: #365B6D;
 $secondary: #F7F7F7;
 $light: #FFFFFF;
+$carousel-control-color: $primary;
+$carousel-indicator-active-bg: $primary;
+$modal-backdrop-bg : $secondary;
+$modal-content-bg : $secondary;
+$modal-header-border-color: $primary;
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 $font-family-sans-serif: -apple-system, 'Barlow', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -150,3 +155,7 @@ a {
   transform: translate(-0.5rem, -0.5rem);
   box-shadow: 2rem 2rem $primary;
 }
+.modal{
+  color: $primary;
+}
+
