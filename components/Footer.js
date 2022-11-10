@@ -42,7 +42,7 @@ export const Footer = () => {
 					<Link href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">
 						<a>MIT</a>
 					</Link>
-					{" "} License, modified by Wesley Davenport
+					{" "} License
 				</small>
 			</div>
 		</footer>
