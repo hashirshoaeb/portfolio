@@ -2,6 +2,7 @@
 import profile from './profile.png';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
+import projectPreview1 from './project-Preview-1.png';
 
 export const navigation = {
 	name: "Hashir",
@@ -86,6 +87,7 @@ export const projects = {
 		},
 		{
 			title: "QuranTalk",
+			image : projectPreview1.src,
 			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
 			icons: [
 				{
@@ -108,6 +110,7 @@ export const projects = {
 				},
 			]
 		},
+	
 	],
 }
 
