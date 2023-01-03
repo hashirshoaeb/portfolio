@@ -17,7 +17,7 @@ console.log(`Deploying to ${repoURL} branch ${branch}`);
  * 
  * node scripts/pages.js <username> <branch>
  * i.e.
- * node scripts/pages.js hashirshoaeb master
+ * node scripts/pages.js dikology master
  */
 ghpages.publish(
   build_path,

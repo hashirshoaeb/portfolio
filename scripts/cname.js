@@ -11,7 +11,7 @@ const filePath = './out/CNAME'
  * 
  * node script/cname.js domain1 domain2 domain3
  * i.e.
- * node script/cname.js hashirshoaeb.com www.hashirshoaeb.com
+ * node script/cname.js dikology.com www.dikology.com
  */
 console.log("Creating CNAME...")
 fs.writeFile(filePath, content, (err) => {
