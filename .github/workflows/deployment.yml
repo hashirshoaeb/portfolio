@@ -6,19 +6,18 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [mine]
   pull_request:
-    branches: [ main ]
+    branches: [mine]
 
 jobs:
   build:
-
     runs-on: macos-11
 
     # env:
-      # Repository name
-      # https://www.linkedin.com/pulse/deploy-nextjs-app-github-pages-federico-antu%C3%B1a/
-      # BASE_PATH: /${{ github.event.repository.name }}
+    # Repository name
+    # https://www.linkedin.com/pulse/deploy-nextjs-app-github-pages-federico-antu%C3%B1a/
+    # BASE_PATH: /${{ github.event.repository.name }}
 
     strategy:
       matrix:
@@ -26,25 +25,25 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Set Environment Variables
-      run: echo "BASE_PATH=/${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
-    - name: Test Environment Variables
-      run: echo ${{ env.BASE_PATH }}
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm ci
-    # - run: npm run prebuild # build automatically runs prebuild
-    - run: npm run build
-    - run: npm run export
-    - run: touch ./out/.nojekyll
-    
-    # https://github.com/marketplace/actions/deploy-to-github-pages
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@4.1.4
-      with:
-        branch: gh-pages # The branch the action should deploy to.
-        folder: out # The folder the action should deploy.
+      - uses: actions/checkout@v2
+      - name: Set Environment Variables
+        run: echo "BASE_PATH=/${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
+      - name: Test Environment Variables
+        run: echo ${{ env.BASE_PATH }}
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: npm ci
+      # - run: npm run prebuild # build automatically runs prebuild
+      - run: npm run build
+      - run: npm run export
+      - run: touch ./out/.nojekyll
+
+      # https://github.com/marketplace/actions/deploy-to-github-pages
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: out # The folder the action should deploy.
