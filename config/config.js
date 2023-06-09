@@ -1,5 +1,6 @@
 
 import profile from './profile.png';
+import ideafactorylogo from './ideafactorylogo.png';
 import { faAppStore, faGithub, faGooglePlay, faChrome } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
@@ -48,7 +49,7 @@ export const about = {
 		// "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
 		// "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
 		// "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
-		"I'm an undergraduate student at University of Washington, Seattle, double majoring in Computer Science and Applied Computational and Mathematical Science. ",
+		"I'm an undergraduate student at University of Washington, Seattle, double majoring in Computer Science and Applied Computational and Mathematical Science and plan to graduate in Spring 2023. ",
 		"I'm passionate about software engineering since I love to build impactful solutions that can help people and always open to new ideas and opportunities. Building many projects in the past few years, I have gained a lot of experience about software engineering and machine learning especially in Java, Python, and JavaScript.",
 		"I'm enthusiastic about Researching and Teaching too. I taught CSE 413: Programming Language and Implementation in Spring 2023 and I'm currently working on a research project about Automated Testing Generation with Professor Michael Ernst.",
 		"Besides programming, I love playing games and creating content on Social Medias. And I'm currently learning Unity2D and looking for building my own games."
@@ -104,6 +105,7 @@ export const projects = {
 				},
 			],
 			skills: ["JavaScript", "ReactJS", "NodeJS", "MongoDB", "Google Firebase", "React Testing Library"],
+			imageURL: ideafactorylogo.src,
 		},
 
 		{
