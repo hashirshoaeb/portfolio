@@ -1,0 +1,19 @@
+/* Card.module.css */
+.card {
+    width: 100%;
+    position: relative;
+    background: #fff;
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* .card:hover {
+    transform: translateY(-10px);
+} */
+
+/* replace this with your image URL */
+/* .card.withImage {
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9)), url('yourImageUrl');
+} */
