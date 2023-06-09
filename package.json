@@ -6,9 +6,9 @@
   "license": "MIT",
   "private": true,
   "author": {
-    "name": "Hashir Shoaib",
-    "email": "hashirshoaeb@gmail.com",
-    "url": "https://github.com/hashirshoaeb"
+    "name": "Zihe Ji",
+    "email": "skycoder0820@gmail.com",
+    "url": "https://github.com/Kuro1Fury"
   },
   "scripts": {
     "prebuild": "node scripts/favicons.js",

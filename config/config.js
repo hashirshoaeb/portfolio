@@ -36,7 +36,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "https://drive.google.com/file/d/10uXyQMr-CkaPliQG_WsTTsFN0UnSF_Dk/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -165,7 +165,7 @@ export const projects = {
 }
 
 export const contact = {
-	title: "Contact",
+	title: "Contact & Links",
 	description: "I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
 	buttons: [
 		{
@@ -176,27 +176,27 @@ export const contact = {
 		{
 			title: "Academic Email",
 			link: "mailto:zihej2@cs.washington.edu",
-			isPrimary: true,
-		},
-		{
-			title: "Schedule Meeting",
-			link: "",
 			isPrimary: false,
 		},
+		// {
+		// 	title: "Schedule Meeting",
+		// 	link: "",
+		// 	isPrimary: false,
+		// },
 	]
 }
 
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	title: "Zihe Ji's Portfolio",
+	// description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
+	title: "@zihej2",
 	description: "Computer Engineer | Flutter | Reactjs Developer",
 	cards: [
 		{
