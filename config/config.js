@@ -178,6 +178,16 @@ export const contact = {
 			link: "mailto:zihej2@cs.washington.edu",
 			isPrimary: false,
 		},
+		{
+			title: "LinkedIn",
+			link: "https://www.linkedin.com/in/zihe-ji/",
+			isPrimary: false,
+		},
+		{
+			title: "GitHub",
+			link: "https://github.com/Kuro1Fury",
+			isPrimary: false,
+		},
 		// {
 		// 	title: "Schedule Meeting",
 		// 	link: "",
