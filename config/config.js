@@ -77,7 +77,8 @@ export const education = {
 			location: "Seattle, WA",
 			degree: "Bachelor of Science in Computer Science, Bachelor of Science in Applied Computational and Mathematical Science",
 			date: "September 2020 - June 2024 (Expected)",
-			courses: ["Software Engineering", 'Machine Learning', 'Deep Learning'],
+			courses: ["Software Engineering", 'Machine Learning', 'Deep Learning', 'Artificial Intelligence', 'Algorithm', 'Database Systems', 'System Programming'],
+			GPA: "3.8/4.0",
 		},
 	],
 }
@@ -101,7 +102,6 @@ export const projects = {
 			skills: ["JavaScript", "ReactJS", "NodeJS", "MongoDB", "Google Firebase", "React Testing Library"],
 			imageURL: ideafactorylogo.src,
 		},
-
 		{
 			title: "HuskyShake",
 			description: "A location-based app designed for the UW campus to help students communicate and find study partners, events, and more based on their location.",
@@ -203,7 +203,7 @@ export const SEO = {
 export const links = {
 	image: profile.src,
 	title: "@zihej2",
-	description: "Computer Engineer | Student @ UW | Researcher @ UW",
+	description: "Software Engineer | Student @ UW | Researcher @ UW",
 	cards: [
 		{
 			title: "My website",

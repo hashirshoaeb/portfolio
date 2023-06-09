@@ -17,6 +17,7 @@ export const Education = ({ title, chunks }) => {
                             degree={value.degree}
                             location={value.location}
                             courses={value.courses}
+                            GPA={value.GPA}
                         // icons={value.icons} 
                         />
                     ))}
@@ -29,7 +30,7 @@ export const Education = ({ title, chunks }) => {
     );
 }
 
-export const Chunk = ({ title, date, degree, location, courses }) => {
+export const Chunk = ({ title, date, degree, location, courses, GPA }) => {
 
     const courseBoxStyle = {
         border: "1px solid #ccc",
@@ -50,33 +51,46 @@ export const Chunk = ({ title, date, degree, location, courses }) => {
         margin: "0",
     };
 
+    const rowStyle = {
+        display: "flex",
+        justifyContent: "space-between",
+    };
+
+    const titleStyle = {
+        fontSize: "2rem", // Adjust this value as needed
+    };
+
     return (
         <div className={`card py-3 px-3 mx-sm-4 my-4 card-work ${styles.card}`}>
             <div className="card-body">
-                <h4 className="text-primary">{title}</h4>
-                <p className="text-dark">{date}</p>
-                <p className="text-dark">{degree}</p>
-                <p className="text-dark">{location}</p>
-            </div>
-            {courses && (
-                <div>
-                    <p>Related courseworks:</p>
-                    {courses.map((course, index) => (
-                        <div key={index} style={courseBoxStyle}>
-                            <p style={courseTextStyle}>{course}</p>
-                        </div>
-                    ))}
+                <div style={rowStyle}>
+                    <h4 className="text-primary" style={titleStyle}>{title}</h4>
+                    <p className="text-dark">{date}</p>
                 </div>
-            )}
-            {/* <div className="text-end" style={{ position: "absolute", bottom: "10px", right: "10px" }}>
-                {icons && icons.map((value, index) => (
-                    <Link key={index} href={value.link}>
-                        <a target="_blank" rel="noreferrer">
-                            <FontAwesomeIcon className="icon-style mx-1" icon={value.icon} size="2x" />
-                        </a>
-                    </Link>
-                ))}
-            </div> */}
+                <div style={rowStyle}>
+                    <p className="text-dark">
+                        {degree.split(", ").map((item, index) => (
+                            <React.Fragment key={index}>
+                                {item}
+                                {index < degree.split(", ").length - 1 && <br />}
+                            </React.Fragment>
+                        ))}
+                    </p>
+                    <p className="text-dark">{location}</p>
+                </div>
+                <p className="text-dark">GPA: {GPA}</p>
+
+                {courses && (
+                    <div>
+                        {/* <p>Related courseworks:</p> */}
+                        {courses.map((course, index) => (
+                            <div key={index} style={courseBoxStyle}>
+                                <p style={courseTextStyle}>{course}</p>
+                            </div>
+                        ))}
+                    </div>
+                )}
+            </div>
         </div>
     );
 };
