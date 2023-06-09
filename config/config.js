@@ -197,19 +197,15 @@ export const SEO = {
 export const links = {
 	image: profile.src,
 	title: "@zihej2",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	description: "Computer Engineer | Student @ UW | Researcher @ UW",
 	cards: [
 		{
 			title: "My website",
-			link: "https://hashirshoaeb.com/",
+			link: "https://kuro1fury.github.io/",
 		},
 		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
+			title: "Resume",
+			link: "https://drive.google.com/file/d/10uXyQMr-CkaPliQG_WsTTsFN0UnSF_Dk/view?usp=sharing",
 		},
 		{
 			title: "My GitHub",
@@ -217,7 +213,7 @@ export const links = {
 		},
 		{
 			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
+			link: "https://www.linkedin.com/in/ziheji/",
 		},
 	]
 }
