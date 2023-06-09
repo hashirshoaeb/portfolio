@@ -4,7 +4,7 @@ import { faAppStore, faGithub, faGooglePlay, faChrome } from '@fortawesome/free-
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Zihe",
 	links: [
 		{
 			title: "About",
