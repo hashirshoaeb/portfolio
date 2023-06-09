@@ -103,11 +103,7 @@ export const projects = {
 					link: "https://github.com/orgs/uwIdeaFactory/repositories",
 				},
 			],
-			techStacks: [
-				{
-					element: "text",
-				}
-			]
+			skills: ["ReactJS", "NodeJS", "MongoDB", "Google Firebase"],
 		},
 
 		{

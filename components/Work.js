@@ -32,7 +32,8 @@ export const Projects = ({ title, cards }) => {
 							key={index}
 							title={value.title}
 							description={value.description}
-							icons={value.icons} />
+							icons={value.icons}
+							skills={value.skills} />
 					))}
 				</div>
 				{/* <div className="text-center">
@@ -43,42 +44,29 @@ export const Projects = ({ title, cards }) => {
 	);
 }
 
-// export const Card = ({ title, description, icons }) => {
-// 	return (
-// 		<div className="card py-3 px-3 mx-sm-4 my-4 card-work" style={{ width: "20rem", position: "relative" }}>
-// 			<div className="card-body">
-// 				<h4 className="text-primary">{title}</h4>
-// 				<p className="text-dark">{description}</p>
-// 			</div>
-// 			<div className="text-end" style={{ position: "absolute", bottom: "10px", right: "10px" }}>
-// 				{icons && icons.map((value, index) => (
-// 					<Link key={index} href={value.link}>
-// 						<a target="_blank" rel="noreferrer">
-// 							<FontAwesomeIcon className="icon-style mx-1" icon={value.icon} size="2x" />
-// 						</a>
-// 					</Link>
-// 				))}
-// 			</div>
-// 		</div>
-// 	);
-// }
 
+export const Card = ({ title, description, icons, skills }) => {
+	const skillBoxStyle = {
+		border: "1px solid #ccc",
+		borderRadius: "4px",
+		padding: "4px 8px",
+		listStyleType: "none",
+	};
 
-export const Card = ({ title, description, icons, techStacks }) => {
 	return (
 		<div className="card py-3 px-3 mx-sm-4 my-4 card-work" style={{ width: "20rem", position: "relative" }}>
 			<div className="card-body">
 				<h4 className="text-primary">{title}</h4>
 				<p className="text-dark">{description}</p>
-			</div>
-			<div className="text-end" style={{ position: "absolute", bottom: "10px", right: "10px" }}>
-				{techStacks && techStacks.map((value, index) => (
-					<Link key={index} href={value.link}>
-						<a target="_blank" rel="noreferrer">
-							<FontAwesomeIcon className="icon-style mx-1" icon={value.icon} size="2x" />
-						</a>
-					</Link>
-				))}
+				{skills && (
+					<div className="d-flex">
+						{skills.map((skill, index) => (
+							<div key={index} style={skillBoxStyle} className="me-2">
+								<li>{skill}</li>
+							</div>
+						))}
+					</div>
+				)}
 			</div>
 			<div className="text-end" style={{ position: "absolute", bottom: "10px", right: "10px" }}>
 				{icons && icons.map((value, index) => (
@@ -91,4 +79,4 @@ export const Card = ({ title, description, icons, techStacks }) => {
 			</div>
 		</div>
 	);
-}
+};
