@@ -25,8 +25,8 @@ export const navigation = {
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hey, I'm Zihe Ji",
+	description: "A Software Engineering Enthusiast and a CSE Student at University of Washington",
 	image: profile.src,
 	buttons: [
 		{
@@ -155,7 +155,7 @@ export const links = {
 		},
 		{
 			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
+			link: "https://github.com/Kuro1Fury",
 		},
 		{
 			title: "My LinkedIn",
