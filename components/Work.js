@@ -51,6 +51,18 @@ export const Card = ({ title, description, icons, skills }) => {
 		borderRadius: "4px",
 		padding: "4px 8px",
 		listStyleType: "none",
+		display: "inline-block",
+		whiteSpace: "normal",
+		wordBreak: "break-word",
+		marginBottom: "8px",
+		backgroundColor: "#fff",
+		marginRight: "8px",
+	};
+
+	const skillTextStyle = {
+		color: "#000",
+		fontSize: "0.85rem",
+		margin: "0",
 	};
 
 	return (
@@ -59,10 +71,10 @@ export const Card = ({ title, description, icons, skills }) => {
 				<h4 className="text-primary">{title}</h4>
 				<p className="text-dark">{description}</p>
 				{skills && (
-					<div className="d-flex">
+					<div>
 						{skills.map((skill, index) => (
-							<div key={index} style={skillBoxStyle} className="me-2">
-								<li>{skill}</li>
+							<div key={index} style={skillBoxStyle}>
+								<p style={skillTextStyle}>{skill}</p>
 							</div>
 						))}
 					</div>

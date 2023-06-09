@@ -103,52 +103,63 @@ export const projects = {
 					link: "https://github.com/orgs/uwIdeaFactory/repositories",
 				},
 			],
-			skills: ["ReactJS", "NodeJS", "MongoDB", "Google Firebase"],
+			skills: ["JavaScript", "ReactJS", "NodeJS", "MongoDB", "Google Firebase", "React Testing Library"],
 		},
 
 		{
 			title: "HuskyShake",
-			description: "A localtion-based app designed for the UW campus to help students communicate and find study partners, events, and more based on their location.",
-			icons: [
-				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-				},
-			]
-		},
-		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			description: "A location-based app designed for the UW campus to help students communicate and find study partners, events, and more based on their location.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
+					link: "https://github.com/HuskyShake/demo-repository",
 				},
-			]
+			],
+			skills: ["JavaScript", "React Native", "Expo", "Google Firebase"],
 		},
 		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			title: "UMessage",
+			description: "An application that allows users to send messages to each other with advanced recommendation algorithms and data structures.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
+					link: "https://github.com/Kuro1Fury/UMessage",
 				},
-			]
+			],
+			skills: ["Java", "JUnit5"]
 		},
 		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			title: "HuskyMap",
+			description: "A web application that allows users to search for locations and find the shortest path between them inside UW campus.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
+					link: "https://github.com/Kuro1Fury/Husky-Map",
 				},
-			]
+			],
+			skills: ["Java", "ReactJS", "JUnit5", "Spark"]
+		},
+		{
+			title: "Appointment Reservation System",
+			description: "A Java application that allows patient and service providers to reserve appointments and manage appointments.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/Kuro1Fury/Vaccine-Scheduler",
+				},
+			],
+			skills: ["Java", "SQL", "Microsoft Azure"]
+		},
+		{
+			title: "Global Temperature Change Visualization",
+			description: "A simple R Shiny App that visualizes the global temperature change from different scales and perspectives.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/Kuro1Fury/Global-Temperature-Change",
+				},
+			],
+			skills: ["R", "Shiny"]
 		},
 	],
 }
