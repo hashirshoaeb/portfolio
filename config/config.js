@@ -1,8 +1,9 @@
 
 import profile from './profile.png';
 import ideafactorylogo from './ideafactorylogo.png';
-import { faGithub, faChrome } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faChrome, faGoogleDrive, faFile } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
+import { ReactComponent as FileIcon } from './file-alt-solid.svg';
 
 export const navigation = {
 	name: "Zihe",
@@ -100,7 +101,17 @@ export const projects = {
 				},
 			],
 			skills: ["JavaScript", "ReactJS", "NodeJS", "MongoDB", "Google Firebase", "React Testing Library"],
-			imageURL: ideafactorylogo.src,
+		},
+		{
+			title: "Bird Classification",
+			description: "A paper that performs analysis on the performance of unimodaility and multimodaility model on bird classification.",
+			icons: [
+				{
+					icon: faGoogleDrive,
+					link: "https://drive.google.com/file/d/1SzuPlqY9p--ED6__cYkYe2GyCWdSyRq1/view?usp=sharing",
+				},
+			],
+			skills: ["Python", "PyTorch", "LaTeX", "Librosa", "AudioCLIP", "Resnet"],
 		},
 		{
 			title: "HuskyShake",
@@ -112,6 +123,17 @@ export const projects = {
 				},
 			],
 			skills: ["JavaScript", "React Native", "Expo", "Google Firebase"],
+		},
+		{
+			title: "Kalah AI",
+			description: "An AI agent that plays Kalah game using Minimax algorithm with Alpha-Beta pruning and Heuristic function.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/Kuro1Fury/Kalah-AI",
+				},
+			],
+			skills: ["Python", "Minimax", "Alpha-Beta Pruning"],
 		},
 		{
 			title: "UMessage",
