@@ -5,7 +5,7 @@ import styles from './Chunk.module.css';
 
 export const Experience = ({ title, chunks }) => {
     return (
-        <div id="projects" className="bg-secondary py-5 px-5">
+        <div id="experience" className="bg-light py-5 px-5">
             <div className="container">
                 <h1 className="text-primary fw-bold">Experience</h1>
                 <div className="d-flex flex-row flex-wrap justify-content-center">

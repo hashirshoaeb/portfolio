@@ -13,6 +13,14 @@ export const navigation = {
 			link: "#about",
 		},
 		{
+			title: "Education",
+			link: "#education",
+		},
+		{
+			title: "Experience",
+			link: "#experience",
+		},
+		{
 			title: "Projects",
 			link: "#projects",
 		},
@@ -228,7 +236,7 @@ export const SEO = {
 export const links = {
 	image: profile.src,
 	title: "@zihej2",
-	description: "Software Engineer | Student @ UW | Researcher @ UW",
+	description: "Software Engineer | Student @ UW | TA @ UW | Researcher @ UW",
 	cards: [
 		{
 			title: "My website",
