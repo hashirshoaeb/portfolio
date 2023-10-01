@@ -54,6 +54,15 @@ export const Chunk = ({ title, date, degree, location, courses, GPA }) => {
     const rowStyle = {
         display: "flex",
         justifyContent: "space-between",
+        alignItems: "baseline",
+    };
+
+    const degreeStyle = {
+        // bold
+        // fontWeight: "bold",
+        color: "#000",
+        fontSize: "1.1rem",
+        // margin: "0",
     };
 
     const titleStyle = {
@@ -68,14 +77,14 @@ export const Chunk = ({ title, date, degree, location, courses, GPA }) => {
                     <p className="text-dark">{date}</p>
                 </div>
                 <div style={rowStyle}>
-                    <p className="text-dark">
+                    <h5 className="text-dark" style={degreeStyle}>
                         {degree.split(", ").map((item, index) => (
                             <React.Fragment key={index}>
                                 {item}
                                 {index < degree.split(", ").length - 1 && <br />}
                             </React.Fragment>
                         ))}
-                    </p>
+                    </h5>
                     <p className="text-dark">{location}</p>
                 </div>
                 <p className="text-dark">GPA: {GPA}</p>

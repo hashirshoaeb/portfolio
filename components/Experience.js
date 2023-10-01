@@ -26,7 +26,7 @@ export const Experience = ({ title, chunks }) => {
     );
 }
 
-export const Chunk = ({ title, date, description, location, skills }) => {
+export const Chunk = ({ title, company, date, description, location, skills }) => {
 
     const courseBoxStyle = {
         border: "1px solid #ccc",
@@ -50,33 +50,27 @@ export const Chunk = ({ title, date, description, location, skills }) => {
     const rowStyle = {
         display: "flex",
         justifyContent: "space-between",
-    };
-
-    const columnStyle = {
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "space-between",
+        alignItems: "baseline",
     };
 
     const titleStyle = {
         fontSize: "2rem", // Adjust this value as needed
     };
-
-    const dateLocationStyle = {
-        fontWeight: "bold",
-        color: "#02707A",  // Use your preferred color
-        margin: "0",  // Adjust margin to control spacing
-    };
-
     return (
         <div className={`card py-3 px-3 mx-sm-4 my-4 card-work ${styles.card}`}>
             <div className="card-body">
+
                 <div style={rowStyle}>
-                    <h4 className="text-primary" style={titleStyle}>{title}</h4>
-                    <div style={columnStyle}>
-                        <p style={dateLocationStyle}>{`${date} | ${location}`}</p>
-                    </div>
+                    <h4 className="text-primary" style={titleStyle}>{company}</h4>
+                    <p className="text-dark">{date}</p>
                 </div>
+                <div style={rowStyle}>
+                    <h5 className="text-dark">
+                        {title}
+                    </h5>
+                    <p className="text-dark">{location}</p>
+                </div>
+
                 <div style={rowStyle}>
                     <div className="text-dark">
                         <ul>
