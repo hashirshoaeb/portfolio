@@ -3,9 +3,10 @@ import { Nav } from '../components/Navbar';
 import { Intro, About } from '../components/Intro';
 import { Skills, Projects } from '../components/Work';
 import { Footer, Contact } from '../components/Footer';
-import { about, contact, intro, navigation, projects, SEO, work, education } from '../config/config';
+import { about, contact, intro, navigation, projects, SEO, education, experience } from '../config/config';
 import { Header } from '../components/Header';
 import { Education } from '../components/Education';
+import { Experience } from '../components/Experience';
 
 export default function Home() {
   return (
@@ -33,10 +34,10 @@ export default function Home() {
         title={work.title}
         cards={work.cards}
       /> */}
-      {/* <Works
-        title={work.title}
-        cards={work.cards}
-      /> */}
+      <Experience
+        title={experience.title}
+        chunks={experience.chunks}
+      />
       <Projects
         title={projects.title}
         cards={projects.cards}

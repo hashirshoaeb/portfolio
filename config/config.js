@@ -75,8 +75,13 @@ export const experience = {
 		{
 			title: "Ant Group - Software Development Engineer Intern",
 			location: "Shanghai, China",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
-			date: "June 2023 - September 2023"
+			description: `
+			• Developed and optimized critical APIs and features for high-availability applications, ensuring compliance with regulatory requirements, minimizing online banking business risk, and elevating operational efficiency
+			• Collaborated with fellow software engineers and led the frontend team to meet business and product requirements, overseeing maintenance and enhancement of critical features vital to the organization\'s objective
+			• Employed Sofaboot, asynchronous command, batch-processing frameworks, oceanbase, and message queue technologies to streamline the software development lifecycle, bolstering development speed and scalability.
+			• Acquired proficiency in end-to-end software development processes, encompassing rigorous self-testing across diverse environments, configuring gray environment switches for controlled deployments, proactive monitoring, and proactively establishing contingency plans to address potential online risks proactively.`,
+			date: "June 2023 - September 2023",
+			skills: ["Java", "Spring Boot", "MySQL", "MyBatis", "Oceanbase", "SofaBoot", "Asynchronous Command", "Batch Processing"],
 		}
 	],
 }
