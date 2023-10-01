@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Link from 'next/link'
+import Link from 'next/link';
 import styles from './Chunk.module.css';
 
 export const Experience = ({ title, chunks }) => {
@@ -52,8 +52,20 @@ export const Chunk = ({ title, date, description, location, skills }) => {
         justifyContent: "space-between",
     };
 
+    const columnStyle = {
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+    };
+
     const titleStyle = {
         fontSize: "2rem", // Adjust this value as needed
+    };
+
+    const dateLocationStyle = {
+        fontWeight: "bold",
+        color: "#02707A",  // Use your preferred color
+        margin: "0",  // Adjust margin to control spacing
     };
 
     return (
@@ -61,22 +73,18 @@ export const Chunk = ({ title, date, description, location, skills }) => {
             <div className="card-body">
                 <div style={rowStyle}>
                     <h4 className="text-primary" style={titleStyle}>{title}</h4>
-                    <p className="text-dark">{date}</p>
+                    <div style={columnStyle}>
+                        <p style={dateLocationStyle}>{`${date} | ${location}`}</p>
+                    </div>
                 </div>
                 <div style={rowStyle}>
-                    <p className="text-dark">
-                        {description}
-                        {/* {skills && (
-                            <div>
-                                {skills.map((skills, index) => (
-                                    <div key={index} style={courseBoxStyle}>
-                                        <p style={courseTextStyle}>{skills}</p>
-                                    </div>
-                                ))}
-                            </div>
-                        )} */}
-                    </p>
-                    <p className="text-dark">{location}</p>
+                    <div className="text-dark">
+                        <ul>
+                            {description.map((line, index) => (
+                                <li key={index}>{line}</li>
+                            ))}
+                        </ul>
+                    </div>
                 </div>
 
                 {skills && (
