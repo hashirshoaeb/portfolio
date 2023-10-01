@@ -54,21 +54,6 @@ export const about = {
 	],
 }
 
-// export const work = {
-// 	title: "What I do",
-// 	cards: [
-// 		{
-// 			title: "Mobile App Development",
-// 			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
-// 			icons: null,
-// 		},
-// 		{
-// 			title: "Web Development",
-// 			description: "I create responsive static websites using Reactjs.",
-// 			icons: null,
-// 		}
-// 	],
-// }
 
 export const education = {
 	title: "Education",
@@ -78,9 +63,21 @@ export const education = {
 			location: "Seattle, WA",
 			degree: "Bachelor of Science in Computer Science, Bachelor of Science in Applied Computational and Mathematical Science",
 			date: "September 2020 - June 2024 (Expected)",
-			courses: ["Software Engineering", 'Machine Learning', 'Deep Learning', 'Artificial Intelligence', 'Algorithm', 'Database Systems', 'System Programming'],
+			courses: ["Software Engineering", 'Programming Language', 'Algorithm', 'Database Systems', 'System Programming', 'Machine Learning', 'Deep Learning', 'Artificial Intelligence'],
 			GPA: "3.8/4.0",
 		},
+	],
+}
+
+export const experience = {
+	title: "Experience",
+	chunks: [
+		{
+			title: "Ant Group - Software Development Engineer Intern",
+			location: "Shanghai, China",
+			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+			date: "June 2023 - September 2023"
+		}
 	],
 }
 
