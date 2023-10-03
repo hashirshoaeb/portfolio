@@ -25,8 +25,8 @@ export const navigation = {
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hey, I'm Eichel",
+	description: "A Information Systems Junior with Double Minor in Human-Computer Interaction and Global Systems and Management",
 	image: profile.src,
 	buttons: [
 		{
@@ -36,7 +36,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "https://docs.google.com/document/d/1WegXKcHr6tQLfe0wEVPixmImnkGPYRmS2o3RjKh7NGU/edit?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -104,7 +104,7 @@ export const projects = {
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
+					link: "https://github.com/eichel-choi/portfolio",
 				},
 			]
 		},
@@ -113,11 +113,11 @@ export const projects = {
 
 export const contact = {
 	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at eichelchoi@cmu.edu.",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			link: "mailto:eichelchoi@cmu.edu",
 			isPrimary: true,
 		},
 		{
@@ -143,7 +143,7 @@ export const links = {
 	cards: [
 		{
 			title: "My website",
-			link: "https://hashirshoaeb.com/",
+			link: "https://eichel-sc.com/",
 		},
 		{
 			title: "QuranTalk App",
@@ -155,11 +155,11 @@ export const links = {
 		},
 		{
 			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
+			link: "https://github.com/eichel-choi/",
 		},
 		{
 			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
+			link: "https://www.linkedin.com/in/eichel-sc/",
 		},
 	]
 }
