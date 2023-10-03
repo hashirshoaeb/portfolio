@@ -4,7 +4,7 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Eichel",
 	links: [
 		{
 			title: "About",
@@ -26,7 +26,7 @@ export const navigation = {
 }
 export const intro = {
 	title: "Hey, I'm Eichel",
-	description: "A Information Systems Junior with Double Minor in Human-Computer Interaction and Global Systems and Management",
+	description: "An interesting talent",
 	image: profile.src,
 	buttons: [
 		{
@@ -45,9 +45,9 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"I am a junior in Carnegie Mellon University studying Bachelor of Science in Information Systems. With Double Minor in Human-Computer Interaction and Global Systems and Management, I had multiple global exposures.",
+		"-",
+		"-",
 	],
 }
 
@@ -80,7 +80,7 @@ export const projects = {
 				},
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					link: "https://github.com/eichel-choi/star_book",
 				},
 			]
 		},
@@ -131,27 +131,27 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	title: "Sebin (Eichel) Choi | Strategic Resource Planner | Project Manager | Technical Sales Engineer",
+	description: "Student in Carnegie Mellon University, majoring in Information Systems",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "@eichel-choi",
+	description: "Strategic Resource Planner | Project Manager | Technical Sales Engineer",
 	cards: [
 		{
 			title: "My website",
 			link: "https://eichel-sc.com/",
 		},
 		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
+			title: "MediMili Demo",
+			link: "https://youtu.be/QtUpV1qLMqs?si=_Y2vYyEJPl0h6i7T",
 		},
 		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
+			title: "Handshake",
+			link: "https://cmu.joinhandshake.com/stu/users/25761346",
 		},
 		{
 			title: "My GitHub",
