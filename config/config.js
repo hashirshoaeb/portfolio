@@ -135,7 +135,7 @@ export const contact = {
 export const SEO = {
 	// 50 - 60 char  
 	title: "Sebin (Eichel) Choi | Strategic Resource Planner | Technical Product Manager | Technical Sales Engineer",
-	description: "Information Systems Junior in Carnegie Mellon University with Minor in Human-Computer Interaction, Global Systems and Management, Politics and Public Policy",
+	description: "Information Systems Junior in Carnegie Mellon University with Minor in puter Interaction, Global Systems and Management, Politics and Public Policy",
 	image: profile.src,
 }
 
