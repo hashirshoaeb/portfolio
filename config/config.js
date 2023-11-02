@@ -26,7 +26,14 @@ export const navigation = {
 }
 export const intro = {
 	title: "Hey, I'm Eichel",
+<<<<<<< HEAD
 	description: "An interesting talent",
+=======
+	description: ["I'm studying Information Systems at Carnegie Mellon University and finished my major's curriculum in just 2.5 years with three minors: Human-Computer Interaction, Global Systems, and Politics and Public Policy. I believe in blending different fields of study because there's magic at the intersection. I've worked on projects like MTMC to help small businesses with tech, and I'll be spending a semester in D.C. in Fall 2024 to bring together my interests. I'm on track to graduate in 3.5 years and always eager to learn. Check out my journey and let's chat about how different fields can come together!",
+		"But beyond the campus, my commitment to security and diplomacy is evidenced by my tenure with the ROK Defense Counterintelligence Command. Serving as a Counterintelligence Sergeant, I specialized in counterterrorism, focusing on diplomatic and public relations analysis. My role extended to trend analysis in counterintelligence and simultaneous interpretation. Moreover, as the Squad Leader of the Counterintelligence & Counterterrorism Unit, I embraced the responsibility of guiding a dedicated team.",
+		"With study abroad to Shanghai as well, multiple work and project experiences, rigorous courses and student organization commitments, I aim to blend the academic rigor with real-world experience. I invite you to explore my profile, where technology, global perspectives, and policy intertwine."
+	],
+>>>>>>> gh-pages
 	image: profile.src,
 	buttons: [
 		{
@@ -131,15 +138,24 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
+<<<<<<< HEAD
 	title: "Sebin (Eichel) Choi | Strategic Resource Planner | Project Manager | Technical Sales Engineer",
 	description: "Student in Carnegie Mellon University, majoring in Information Systems",
+=======
+	title: "Sebin (Eichel) Choi | Strategic Resource Planner | Technical Product Manager | Technical Sales Engineer",
+	description: "Information Systems Junior in Carnegie Mellon University with Minor in puter Interaction, Global Systems and Management, Politics and Public Policy",
+>>>>>>> gh-pages
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
 	title: "@eichel-choi",
+<<<<<<< HEAD
 	description: "Strategic Resource Planner | Project Manager | Technical Sales Engineer",
+=======
+	description: "Strategic Resource Planner | Technical Product Manager | Technical Sales Engineer",
+>>>>>>> gh-pages
 	cards: [
 		{
 			title: "My website",
