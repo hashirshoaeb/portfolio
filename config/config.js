@@ -122,7 +122,7 @@ export const contact = {
 		},
 		{
 			title: "Schedule Meeting",
-			link: "",
+			link: "https://topmate.io/hashirshoaeb",
 			isPrimary: false,
 		},
 	]
