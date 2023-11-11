@@ -22,6 +22,10 @@ export const navigation = {
 			title: "Links",
 			link: "/links",
 		},
+		{
+			title: "Blog",
+			link: "https://medium.com/@hashirshoaeb",
+		}
 	],
 }
 export const intro = {
