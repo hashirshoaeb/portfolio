@@ -2,6 +2,9 @@
 import profile from './profile.png';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
+import projectPreview1 from './project-preview-1.png';
+import projectPreview2 from './project-preview-2.png';
+import projectPreview3 from './project-preview-3.png';
 
 export const navigation = {
 	name: "Hashir",
@@ -76,6 +79,7 @@ export const projects = {
 	cards: [
 		{
 			title: "StarBook",
+			image:projectPreview1.src,
 			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
 			icons: [
 				{
@@ -90,6 +94,7 @@ export const projects = {
 		},
 		{
 			title: "QuranTalk",
+			image: projectPreview2.src,
 			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
 			icons: [
 				{
@@ -104,6 +109,7 @@ export const projects = {
 		},
 		{
 			title: "Portfolio",
+			image:projectPreview3.src,
 			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
 			icons: [
 				{
