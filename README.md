@@ -39,6 +39,7 @@
         <li><a href="#setup">Setup</a></li>
       </ul>
     </li>
+    <li><a href="#support-my-work">Support my work</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
   </ol>
