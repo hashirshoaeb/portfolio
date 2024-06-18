@@ -1,4 +1,3 @@
-
 import profile from './profile.png';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
@@ -24,9 +23,10 @@ export const navigation = {
 		},
 	],
 }
+
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hey, I'm Saarang Srinivasan",
+	description: "A Computer Science student interested in machine learning and theoretical CS.",
 	image: profile.src,
 	buttons: [
 		{
@@ -36,7 +36,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "resume.pdf",
 			isPrimary: false,
 		},
 	],
@@ -71,16 +71,12 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "Pulse - Lectures to TikToks",
+			description: "React.js web app that lets you upload lecture videos or slides and converts them to short videos/clips employing social media strategies to convey most important topics from lecture. Linked with React Native iOS app to view generated videos – contains deepfake videos/audio of celebrities and their edited tweets. OpenCV/FFMPEG for video generation and Firebase/MongoDB for storage. Use of LLMs and other Whisper AI models for lecture video processing.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					link: "https://github.com/visvshah/Pulse",
 				},
 			]
 		},
