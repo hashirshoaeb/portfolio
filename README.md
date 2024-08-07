@@ -122,6 +122,10 @@ Your site will be available at `https://<your-username>.github.io`
 
 >Note: You need to replace `<your-username>` with your username. To add CNAME for custom domain, see [scripts/cname.js](https://github.com/hashirshoaeb/portfolio/blob/main/scripts/cname.js)
 
+## Github Actions
+
+To properly configure Github Actions, go to Settings, next to Insights, at the top of the portforlio page. On the left-hand side, select Pages. Under Build and Deployment, change the source to GitHub Actions. Github when then have a page for configuration. Hit configure. This page is mostly correct. However, there a few small changes. In partictular, the Upload artifact path should be `out`. There should be no leading `./`. You should be able to just cancel on this configuration page as this project holds a working yml file.
+
 # Support my work
 
 If you found this project valuable, please consider giving it a ⭐️ on GitHub. Your support keeps me motivated! If you'd like to further support my work, you can buy me a book. Thank you for your generosity!
