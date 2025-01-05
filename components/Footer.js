@@ -36,7 +36,7 @@ export const Footer = () => {
 			<div className="container text-muted">
 				<small>&copy; 2021 {" "}
 					<Link href="https://github.com/hashirshoaeb">
-						<a>hashirshoaeb</a>
+						<a>joerovar</a>
 					</Link>
 					. Open sourced with love under {" "}
 					<Link href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">

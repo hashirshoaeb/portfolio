@@ -1,10 +1,10 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Joseph",
   links: [
     {
       title: "About",
@@ -22,15 +22,15 @@ export const navigation = {
       title: "Links",
       link: "/links",
     },
-    {
-      title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
-    }
+    // {
+    //   title: "Blog",
+    //   link: "https://medium.com/@hashirshoaeb",
+    // }
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Hey, I'm Joseph",
+  description: "A transportation engineer using data and domain knowledge to improve public transit for riders and operators.",
   image: profile.src,
   buttons: [
     {
@@ -40,7 +40,7 @@ export const intro = {
     },
     {
       title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      link: "https://drive.google.com/file/d/1HkIOMv1ku-ncGpFHFPbAgN7CXjBR66Vr/view?usp=drive_link",
       isPrimary: false,
     },
   ],
@@ -49,9 +49,9 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "I am currently pursuing a PhD at Northeastern University, advised by Prof. Haris Koutsopoulos.",
+    "I have experience with implementation projects, solving technical challenges and managing teams of practitioners and developers.",
+    "When I'm not thinking about transit, I am reading nonfiction, playing the guitar, or practicing salsa!"
   ],
 }
 
@@ -59,57 +59,50 @@ export const work = {
   title: "What I do",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: "Transit Data Analytics",
+      description: "Evaluating service reliability from the perspective of riders and operators.",
       icons: null,
     },
     {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
+      title: "Transit Operations Control",
+      description: "Develop control techniques to improve service reliability and save rider wait times.",
       icons: null,
+    },
+    {
+      title: "Building Decision Tools",
+      description: "End-to-end solutions for operational staff to make better service decisions.",
+      icons: null
     }
   ],
 }
 
 export const projects = {
-  title: "Projects",
+  title: "Talks",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: "Transit Operations Control and AI in Practice (2023)",
+      description: "Guest Lecture for Course in Behavioral Science, AI, and Urban Mobility at MIT (Prof. Jinhua Zhao).",
       icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-        },
-        {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
-        },
+        // {
+        //   icon: faGithub,
+        //   link: "https://github.com/joerovar",
+        // },
       ]
     },
     {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+      title: "Decision Support Tool for Bus Dispatching in Chicago (2023)",
+      description: "Young Member Webinar Series at TRB Transit Data Committee.",
       icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-        },
-        {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-        },
       ]
     },
     {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      title: "Clustering Analysis for Understanding Bus Driver Work Preferences (2024)",
+      description: "Talk at Transit Data Conference in London (UK)",
       icons: [
-        {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
-        },
+        // {
+        //   icon: faGithub,
+        //   link: "https://github.com/hashirshoaeb/portfolio",
+        // },
       ]
     },
   ],
@@ -117,53 +110,45 @@ export const projects = {
 
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  description: "Feel free to reach out directly by email at rodriguez.josep@northeastern.edu.",
   buttons: [
     {
       title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      link: "mailto:rodriguez.josep@northeastern.edu",
       isPrimary: true,
     },
-    {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
-      isPrimary: false,
-    },
+    // {
+    //   title: "Schedule Meeting",
+    //   link: "https://topmate.io/hashirshoaeb",
+    //   isPrimary: false,
+    // },
   ]
 }
 
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
+  title: "Joseph Rodriguez",
   description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
   image: profile.src,
 }
 
 export const links = {
   image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  title: "@joerovar",
+  description: "Transit Researcher | Analyst | Developer",
   cards: [
     {
       title: "My website",
-      link: "https://hashirshoaeb.com/",
-    },
-    {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
-    },
-    {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
+      link: "https://joerovar.github.io/",
     },
     {
       title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
+      link: "https://github.com/joerovar/",
     },
     {
       title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
+      link: "https://www.linkedin.com/in/josephrodrivar/",
     },
   ]
 }
